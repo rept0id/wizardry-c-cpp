@@ -1,31 +1,9 @@
-mk linguist-vendored
-Mk linguist-vendored
-MK linguist-vendored
-make linguist-vendored
-Make linguist-vendored
-MAKE linguist-vendored
-makefile linguist-vendored
 Makefile linguist-vendored
-MAKEFILE linguist-vendored
-*.mk linguist-vendored
-*.Mk linguist-vendored
-*.MK linguist-vendored
-*.make linguist-vendored
-*.Make linguist-vendored
-*.MAKE linguist-vendored
-*.makefile linguist-vendored
-*.Makefile linguist-vendored
-*.MAKEFILE linguist-vendored
 
 *.txt linguist-vendored
-*.Txt linguist-vendored
-*.TXT linguist-vendored
 
 *.sh linguist-vendored
-*.SH linguist-vendored
 
 *.c linguist-vendored
-*.C linguist-vendored
 
 *.py linguist-vendored
-*.PY linguist-vendored
