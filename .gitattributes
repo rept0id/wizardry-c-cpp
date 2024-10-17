@@ -1,0 +1,10 @@
+*.Makefile linguist-vendored
+*.makefile linguist-vendored
+*.Mk linguist-vendored
+*.mk linguist-vendored
+
+*.txt linguist-vendored
+
+*.sh linguist-vendored
+
+*.c linguist-vendored
