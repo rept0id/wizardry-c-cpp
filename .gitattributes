@@ -4,6 +4,4 @@ Makefile linguist-vendored
 
 *.sh linguist-vendored
 
-*.c linguist-vendored
-
 *.py linguist-vendored
