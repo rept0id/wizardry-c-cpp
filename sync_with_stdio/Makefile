@@ -16,7 +16,7 @@ prepare-assets:
 	@sudo chmod +x ./utils/millionAsset.sh
 	@./utils/millionAsset.sh
 
-prepare: prepare-assets compile
+prepare: prepare-assets
 
 benchmark:
 	@echo "--- - - ---";
@@ -44,3 +44,5 @@ benchmark:
 
 	@echo "";
 	@echo "--- - - ---";
+
+run: prepare compile benchmark
