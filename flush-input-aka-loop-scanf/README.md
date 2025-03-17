@@ -8,6 +8,9 @@ This is because the input is stored in a buffer, and C gives you access to this 
 
 In the [./bad](./bad) directory, you will find an example of the issue mentioned above.
 
-To fix this, there are many solutions. However, all of them suffer from the fact that cleaning the buffer requires a different approach depending on the operating system. The so-called "OS-agnostic" solutions are not guaranteed to work, as they rely on "unexpected behavior" and should generally be avoided.
+To fix this, there are many solutions :
 
-In the [./good-1](./good-1) directory, you will find a solution that clears the input buffer in an OS-specific way (for Windows and Linux).
+- In the [./good-1](./good-1) directory, you will find a solution that clears the input buffer in an OS-specific way (for Windows ✓ and Linux ✓).
+- In the [./good-2](./good-2) directory, you will find a C trick that seems to be consistent across Windows ✓ and Linux ✓, and possibly all OSes.
+- A `fflush(stdin)` solution is considered unexpected behavior, and while it might work, it is a bad practice. Therefore, it is not implemented.
+- A `fgets` solution is out of topic.
